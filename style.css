@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(247, 247, 247, 0.753);
+    margin: 5px;
+    display: grid;
+
+}
+header{
+    display: grid ;
+    overflow: hidden;
+    grid-template-columns: auto auto;
+    gap: 5px;
+
+}
+header h2{
+    background-color: rgb(211, 180, 8);
+    margin: 0;
+    padding-top: 20px;
+    padding: 0;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow: hidden;
+    gap: 5px;
+
+}
+nav li{
+    list-style: none;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+
+}
+.contentcontainer{
+    display: grid;
+    gap: 5px;
+
+}
+.posttitle{
+    background-color: rgb(96, 186, 221);
+    padding: 0;
+    margin: 0px;
+    margin-top: 5px;
+    padding-bottom: 40px;
+    padding-right: 1200px;
+
+
+}
+.metacontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+
+}
+.postmeta{
+    background-color: rgb(9, 235, 130);
+    margin: 0;
+    padding: 0;
+    
+    padding-bottom: 500px;
+
+}
+.content{
+    display: grid;
+    gap: 5px;
+}
+.maincontent{
+    background-color: rgb(196, 190, 190);
+    margin: 0;
+    
+}
+.img{
+    background-color: rgb(240, 240, 41);
+    margin: 0;
+
+}
+.bar{
+    display: grid;
+    gap: 5px;
+    margin-top: 5px;
+}
+.sidebar{
+    padding: 0;
+    background-color: orange;
+    padding-bottom:100px;
+
+}
+.ads{
+    background-color: green;
+    padding: 0;
+    padding-bottom:100px;
+}
+.others{
+    padding: 0;
+    background-color: violet;
+    padding-bottom:100px;
+
+
+}
+footer{
+    background-color: rgb(145, 115, 115);
+    padding: 0;
+    margin-top: 5px;
+    padding-bottom:50px;
+}
+
